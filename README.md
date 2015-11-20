@@ -6,8 +6,8 @@ Script to draw version number on the application icon.
 
 1. Install 3rd parties:
 
-brew install imagemagick
-brew install ghostscript
+  * brew install imagemagick
+  * brew install ghostscript
 
 2. Add Run Script to Build phases and paste content of Versioning.sh
 
