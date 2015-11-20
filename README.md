@@ -4,8 +4,14 @@ Script to draw version number on the application icon.
 
 ## Installation
 
-Add Run Script to Build phases and paste content of Versioning.sh
+1. Install 3rd parties:
 
+brew install imagemagick
+brew install ghostscript
+
+2. Add Run Script to Build phases and paste content of Versioning.sh
+
+Caption on the icon is set as "${version} ($build_num)\n${branch}\n${commit}"
 
 ## Thanks to
 
